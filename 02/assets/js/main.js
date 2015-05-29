@@ -90,6 +90,12 @@
 					$('#titleBar, #navPanel, #page-wrapper')
 						.css('transition', 'none');
 
+
+
+
+
+
+
 		// Parallax.
 		// Disabled on IE (choppy scrolling) and mobile platforms (poor performance).
 			if (skel.vars.browser == 'ie'
