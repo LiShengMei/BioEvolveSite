@@ -43,6 +43,36 @@
   </style>
 
 
+<!-- A Slider -->
+<script src="aslider.js"></script>
+        <style>
+            .aslide {
+                display: none;
+            }
+            .aslide img {
+                max-width: 100%;                
+            }
+            .aslider {
+                width: 100%;
+                height: 720px;
+            }
+            .aslide .text {
+                margin: 0 auto;
+                color: #f8f8f8;
+                text-shadow: 0 0 2px #000;
+                font-weight: bold;
+                font-size: 36px;
+                width: 100%;
+                text-align: center;
+                position: absolute;
+                bottom: 30px;
+                font-family: sans-serif;
+            }
+        </style>
+
+
+
+
 
 
 
@@ -129,6 +159,31 @@
 
 <!-- <img src="images/img_banner.jpg" alt="Banner" style="width: 100%"> -->
 <!-- <a href="#one" class="goto-next scrolly">Next</a> -->
+
+
+
+<!-- A Slider -->
+<div id="slider" class="aslider" data-duration="10" >
+            <div class="aslide" data-duration="4">
+                <img src="images/img_banner.jpg" />
+                <div class="text">HELLO</div>
+            </div>
+            <div class="aslide" data-duration="5">
+                <img src="images/img_naturo.jpg" />
+                <div class="text">THIS</div>
+            </div>
+            <div class="aslide" data-duration="6">
+                <img src="images/bb5d5b69-3c0d-4cb3-8048-c8a7a2a5214d.jpg" />
+                <div class="text">IS SOME</div>
+            </div>
+            <div class="aslide" data-duration="7">
+                <img src="images/crab_nebula.png" />
+                <div class="text">CAPTION TEXT</div>
+            </div>
+        </div>
+</div>
+
+<!-- A Slider END -->
 
 
 <div id="main" role="main">
