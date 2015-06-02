@@ -35,7 +35,7 @@ var aslider = {
                 muteIcon.setAttribute('src', aslider.audioLoudIcon);
                 muteIcon.setAttribute('style', 'width: inherit; height: inherit;');
                 muteButton.appendChild(muteIcon);
-                currentSlider.appendChild(muteButton);
+                // currentSlider.appendChild(muteButton);
                 // Having the onclick handler appended this way neatly resolves potential memory leaks if the page
                 // will be modified by outside scripts.
             }
