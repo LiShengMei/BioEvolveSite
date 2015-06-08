@@ -1554,7 +1554,7 @@
 
 
 	html, body {
-		background: #1c1d26;
+		background: #000;
 	}
 
 	body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1570,7 +1570,7 @@
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Century Gothic", Helvetica, sans-serif;
+		font-family: "Corbel", Arial, sans-serif;
 		font-size: 15pt;
 		font-weight: 100;
 		line-height: 1.75em;
@@ -1760,7 +1760,7 @@
 		}
 
 		99% {
-			color: #1c1d26;
+			color: #000;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -1769,7 +1769,7 @@
 		}
 
 		100% {
-			color: #1c1d26;
+			color: #000;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -1789,7 +1789,7 @@
 		}
 
 		99% {
-			color: #1c1d26;
+			color: #000;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -1798,7 +1798,7 @@
 		}
 
 		100% {
-			color: #1c1d26;
+			color: #000;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -1818,7 +1818,7 @@
 		}
 
 		99% {
-			color: #1c1d26;
+			color: #000;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -1827,7 +1827,7 @@
 		}
 
 		100% {
-			color: #1c1d26;
+			color: #000;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -1847,7 +1847,7 @@
 		}
 
 		99% {
-			color: #1c1d26;
+			color: #000;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -1856,7 +1856,7 @@
 		}
 
 		100% {
-			color: #1c1d26;
+			color: #000;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -2061,7 +2061,7 @@
 			-webkit-animation: overlay-hide 1.5s ease-in forwards !important;
 			-ms-animation: overlay-hide 1.5s ease-in forwards !important;
 			animation: overlay-hide 1.5s ease-in forwards !important;
-			background: #1c1d26;
+			background: #000;
 			content: '';
 			display: block;
 			height: 100%;
@@ -2249,7 +2249,7 @@
 	}
 
 	select option {
-		background-color: #1c1d26;
+		background-color: #000;
 		color: #ffffff;
 	}
 
@@ -2410,7 +2410,7 @@
 			}
 
 			.icon.alt:before {
-				color: #1c1d26 !important;
+				color: #000 !important;
 				text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 			}
 
@@ -3559,7 +3559,7 @@
 				}
 
 				.spotlight .content {
-					background-color: #1c1d26;
+					background-color: #000;
 					border-width: 0 !important;
 					border-top-width: 0.35em !important;
 					bottom: auto !important;
