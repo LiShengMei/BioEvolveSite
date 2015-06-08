@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>BioEvolve : My Account</title>
+		<title>BioEvolve : Add Credit Card</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/css/ie/html5shiv.js"></script><![endif]-->
@@ -63,7 +63,7 @@
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2>My Account</h2>
+							<h2>Add a Credit Card</h2>
 							
 						</header>
 						
@@ -72,146 +72,110 @@
 
 						<!-- Content -->
 							<section id="content">
-								<center>
-									<a href="account_orderhistory.html" class="button small">View Your Past Purchases</a>
-								</center>
+								<form method="post" action="#">
+									<div class="row uniform 75%">
+										<div class="12u$">
+											<div class="select-wrapper">
+												<select name="category" id="category">
+													<option value="">- Select Card Type -</option>
+													<option value="1">Visa</option>
+													<option value="1">MasterCard</option>
+												</select>
+											</div>
+										</div>
+
+										<div class="12u$">
+											<input type="text" 
+											name="card_number" 
+											id="card_numb3r" 
+											value="" 
+											placeholder="* Credit Card Number" />
+										</div>
+
+										<div class="12u$">
+											<input type="text" 
+											name="card_name" 
+											id="card_name" 
+											value="" 
+											placeholder="* Cardholder Name" />
+										</div>
+
+
+
+
+
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>
+															<select name="category" id="category">
+																<option value="">- Month -</option>
+																<option value="1">01</option>
+																<option value="1">02</option>
+																<option value="1">03</option>
+																<option value="1">04</option>
+																<option value="1">05</option>
+																<option value="1">06</option>
+																<option value="1">07</option>
+																<option value="1">08</option>
+																<option value="1">09</option>
+																<option value="1">10</option>
+																<option value="1">11</option>
+																<option value="1">12</option>
+															</select>
+														</th>
+														<th>
+															<select name="category" id="category">
+																<option value="">- Year -</option>
+																<option value="1">2015</option>
+																<option value="1">2016</option>
+																<option value="1">2017</option>
+																<option value="1">2018</option>
+																<option value="1">2019</option>
+																<option value="1">2020</option>
+																<option value="1">2021</option>
+																<option value="1">2022</option>
+																<option value="1">2023</option>
+																<option value="1">2024</option>
+																<option value="1">2025</option>
+																<option value="1">2026</option>
+																<option value="1">2027</option>
+																<option value="1">2028</option>
+																<option value="1">2029</option>
+																<option value="1">2030</option>
+															</select>
+														</th>
+													</tr>
+												</thead>
+											</table>
+										</div>
+
+										<div class="12u$">
+											<input type="text" 
+											name="card_verificationcode" 
+											id="card_verificationcode" 
+											value="" 
+											placeholder="* Verification Code**" />
+										</div>
+									</div>
+								</form>
+								<div align="right">
+											<h6>* Mandatory fields.</h6>
+											<h6>** The verification code is the small number<br> next to your signature on the back of the card.</h6>
+										</div>
+
 
 								<hr>
 
-								<h4>Saved Credit Cards</h4>
-								<div class="table-wrapper">
-									<table class="alt">
-										<tbody>
-											<tr>
-												<td>Visa</td>
-												<td>xxx-xxx-xxxx-1234</td>
-												<td><h6><font color="#8dc63f">Delete</font></h6></td>
-											</tr>
-											<tr>
-												<td>MasterCard</td>
-												<td>xxx-xxx-xxxx-1234</td>
-												<td><h6><font color="#8dc63f">Delete</font></h6></td>
-											</tr>
-										</tbody>
-									</table>
-
-									
-									<div align="right"><h6><a href="addressform_creditcard.html">Add a Credit Card</a></h6>
-								</div>
-
-								<hr>
-
-								<h4>Billing Address</h4>
-								<div class="table-wrapper">
-									<table class="alt">
-										<tbody>
-											<tr>
-												<td>First Name</td>
-												<td>John</td>
-											</tr>
-											<tr>
-												<td>Last Name</td>
-												<td>Doe</td>
-											</tr>
-											<tr>
-												<td>Address</td>
-												<td>1234 Somewhere St.</td>
-											</tr>
-											<tr>
-												<td>Apartment/Suite</td>
-												<td>If applicable</td>
-											</tr>
-											<tr>
-												<td>City</td>
-												<td>Somewhere</td>
-											</tr>
-											<tr>
-												<td>State/Province</td>
-												<td>British Columbia</td>
-											</tr>
-											<tr>
-												<td>Zip/Post Code</td>
-												<td>A1B 2C3</td>
-											</tr>
-											<tr>
-												<td>Country</td>
-												<td>Canada</td>
-											</tr>
-											<tr>
-												<td>Phone Number</td>
-												<td>1-604-123-4567</td>
-											</tr>
-											<tr>
-												<td>Email</td>
-												<td>email@email.com</td>
-											</tr>
-										</tbody>
-									</table>
-
-									
-									<div align="right"><h6><a href="addressform_billing.html">Change Billing Address</a></h6>
-								</div>
-
-								<hr>
-
-								<h4>Shipping Address</h4>
-								<div class="table-wrapper">
-									<table class="alt">
-										<tbody>
-											<tr>
-												<td>First Name</td>
-												<td>John</td>
-											</tr>
-											<tr>
-												<td>Last Name</td>
-												<td>Doe</td>
-											</tr>
-											<tr>
-												<td>Address</td>
-												<td>1234 Somewhere St.</td>
-											</tr>
-											<tr>
-												<td>Apartment/Suite</td>
-												<td>If applicable</td>
-											</tr>
-											<tr>
-												<td>City</td>
-												<td>Somewhere</td>
-											</tr>
-											<tr>
-												<td>State/Province</td>
-												<td>British Columbia</td>
-											</tr>
-											<tr>
-												<td>Zip/Post Code</td>
-												<td>A1B 2C3</td>
-											</tr>
-											<tr>
-												<td>Country</td>
-												<td>Canada</td>
-											</tr>
-											<tr>
-												<td>Phone Number</td>
-												<td>1-604-123-4567</td>
-											</tr>
-											<tr>
-												<td>Email</td>
-												<td>email@email.com</td>
-											</tr>
-										</tbody>
-									</table>
-
-
-									<div align="right"><h6><a href="addressform_shipping.html">Change Shipping Address</a></h6>
-								</div>
 								
-								<hr>
 
 								<div align="right">
-									<a href="#"><h6>Change Your Password</h6></a>
-									<br><br>
-									<a href="index.html" class="button small">Log Out</a>
+									<a href="account_info.html" class="button special small">+ Add Card to Account</a>
 								</div>
+
+								
+								
 							</section>
 
 					</div>
