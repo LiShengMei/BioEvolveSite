@@ -2969,7 +2969,7 @@
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			background: rgba(23, 24, 32, 0.95);
+			background: rgba(0, 0, 0, 0.95);
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
@@ -3029,11 +3029,11 @@
 		}
 
 		.spotlight.style2 .content {
-			border-color: #5480f1;
+			border-color: #8dc63f;
 		}
 
 		.spotlight.style3 .content {
-			border-color: #39c088;
+			border-color: #8dc63f;
 		}
 
 		.spotlight.inactive .content {
@@ -3199,7 +3199,7 @@
 /* Dropotron */
 
 	.dropotron {
-		background: rgba(39, 40, 51, 0.965);
+		background: rgba(0, 0, 0, 0.75);
 		border-radius: 4px;
 		box-shadow: 0 0.075em 0.35em 0 rgba(0, 0, 0, 0.125);
 		list-style: none;
@@ -3260,7 +3260,7 @@
 	}
 
 	#header {
-		background: rgba(30, 31, 39, 0.3);
+		background: rgba(0, 0, 0, 0.3);
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 		cursor: default;
 		height: 3.5em;
@@ -3273,7 +3273,7 @@
 	}
 
 		#header h1 {
-			background: rgba(30, 31, 39, 0.3);
+			background: rgba(0, 0, 0, 0.3);
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
@@ -3284,7 +3284,7 @@
 
 		#header nav {
 			position: fixed;
-			background: rgba(30, 31, 39, 0.6);
+			background: rgba(0, 0, 0, 0.6);
 			right: 1em;
 			top: 0;
 		}
@@ -3341,7 +3341,7 @@
 	#banner {
 		background-attachment: fixed;
 		background-color: #000;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/img_banner.jpg");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3360,10 +3360,10 @@
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url("images/overlay.png");;
+			background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url("images/overlay.png");;
+			background-image: linear-gradient(top, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url("images/overlay.png");;
 			content: '';
 			display: block;
 			height: 100%;
