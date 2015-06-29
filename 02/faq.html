@@ -14,6 +14,49 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 8]><script src="assets/css/ie/respond.min.js"></script><![endif]-->
+		<!-- COLLAPSIBLE TEXT WITH OPEN ALL/CLOSE ALL LINK -->
+
+
+		<!-- COLLAPSIBLE TEXT WITH OPEN ALL/CLOSE ALL LINK -->
+
+			<!-- This goes into the HEAD of the html file -->
+
+			<script language="JavaScript" type="text/javascript">
+			<!-- Copyright 2007, Sandeep Gangadharan -->
+			<!-- For more free scripts go to http://www.sivamdesign.com/scripts/ -->
+			<!--
+			if (document.getElementById) {
+			 document.write('<style type="text/css">.texter {display:none; border-left:white 20px solid; color:#404040; font-family:verdana,arial,helvetica,sans-serif; font-size:9pt} @media print {.texter {display:block;}}</style>') }
+
+			 var divNum = new Array("a1","a2","a3","a4","a5","a6","a7","a8");  // at the left you should add a1, a2 etc. for each header you wish to include
+			                                          // so if you want 4 headers you should add a1, a2, a3, a4 in the format shown
+			                                          // enclosed in double quotes
+			function openClose(theID) {
+			 for(var i=0; i < divNum.length; i++) {
+			  if (divNum[i] == theID) {
+			   if (document.getElementById(divNum[i]).style.display == "block") { document.getElementById(divNum[i]).style.display = "none" }
+			   else { document.getElementById(divNum[i]).style.display = "block" }
+			  }
+			  else { document.getElementById(divNum[i]).style.display = "none"; }
+			 }
+			}
+
+			function openAll() {
+			 for(var i=0; i < divNum.length; i++) {
+			   document.getElementById(divNum[i]).style.display = "block";
+			 }
+			}
+
+			function closeAll() {
+			 for(var i=0; i < divNum.length; i++) {
+			   document.getElementById(divNum[i]).style.display = "none";
+			 }
+			}
+			// -->
+			</script>
+
+
+
 	</head>
 	<body>
 		<div id="page-wrapper">
@@ -67,21 +110,36 @@
 						</header>
 						
 
+
+					 
+
+					 
+
+
 							
 
 						<!-- Content -->
 							<section id="content">
+								<h6>* Click the question to view or close the answer.</h6>
 								<!-- <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a> -->
 								<a name="sec_gq">
 								<h2>General Questions</h2></a>
-									<h4>Why is the price different from the last time I ordered?</h4>
-									<blockquote><p>Due to marketing fluctuations, prices of items may change from time to time.</p></blockquote>
+
+									<div onClick="openClose('a1')" style="cursor:hand; cursor:pointer; font-family:verdana,arial,helvetica,sans-serif; font-size:10pt"><p>Why is the price different from the last time I ordered?</p></div>
+
+
+									 <div id="a1" class="texter">
+									   <h5> Due to marketing fluctuations, prices of items may change from time to time.</h5>
+									 </div>
+
 									<a href="faq.html"><h6 align="right">Back to Top ↑ <h6></a>
 
 								<h2>Ordering Related Questions</h2>
-									<h4>Why can't I order with my credit card?</h4>
-									<blockquote><p>
-										<u>Most Common Reason</u> <br>
+
+									<div onClick="openClose('a2')" style="cursor:hand; cursor:pointer; font-family:verdana,arial,helvetica,sans-serif; font-size:10pt"><p>Why can't I order with my credit card?</p></div>
+
+									 <div id="a2" class="texter">
+									   <h5> <u>Most Common Reason</u> <br>
 										The charge company <sub>the information is printed on the back of the credit card</sub> blocked your order to prevent and protect you from internation credit card fraud.
 										<br><br>
 										<u>What To Do</u><br>
@@ -96,51 +154,69 @@
 											<li>Your billing adderess is the same as the address associated with your credit card.</li>
 											<li>Your billing name is the same as the name associated with your credit card.</li>
 											<li>Double check your credit card's expiry date.</li>
-											<li>Double check your credit card's limit.</li>
-										</p></blockquote>
-										<a href="faq.html"><h6 align="right">Back to Top ↑ <h6></a>
+											<li>Double check your credit card's limit.</li></h5>
+									 </div>
 
-									<h4>How much is tax?</h4>
-									<blockquote><p>
-										GST/HST will be calculated as per Canadian tax laws within all Canadian provinces.<br>
-										Tax does not apply for all other countries.
-									</p></blockquote>
-									<a href="faq.html"><h6 align="right">Back to Top ↑ <h6></a>
 
-									<h4>How much is shipping?</h4>
-									<blockquote><p>
-										Please click HERE for shipping information.
-									</p></blockquote>
-									<a href="faq.html"><h6 align="right">Back to Top ↑ <h6></a>
+									<div onClick="openClose('a3')" style="cursor:hand; cursor:pointer; font-family:verdana,arial,helvetica,sans-serif; font-size:10pt"><p>How much is tax?</p></div>
 
-									<h4>What countries do you ship to?</h4>
-									<blockquote><p>
-										We currently ship internationally.
-									</p></blockquote>
+									 <div id="a3" class="texter">
+									   <h5> GST/HST will be calculated as per Canadian tax laws within all Canadian provinces.<br>
+										Tax does not apply for all other countries.</h5>
+									 </div>
 
-									<h4>How do I pay for my order?</h4>
-									<blockquote><p>
-										We currently accept Visa and MasterCard.<br>
+									
+
+									<div onClick="openClose('a4')" style="cursor:hand; cursor:pointer; font-family:verdana,arial,helvetica,sans-serif; font-size:10pt"><p>How much is shipping?</p></div>
+
+									 <div id="a4" class="texter">
+									   <h5> Please click <a href="shipping.html">HERE</a> for shipping information.</h5>
+									 </div>
+
+
+
+									 <div onClick="openClose('a5')" style="cursor:hand; cursor:pointer; font-family:verdana,arial,helvetica,sans-serif; font-size:10pt"><p>What countries do you ship to?</p></div>
+
+									 <div id="a5" class="texter">
+									   <h5> We currently ship internationally.<br>
+									   	Please click <a href="shipping.html">HERE</a> for shipping information.</h5>
+									 </div>
+									
+
+									 <div onClick="openClose('a6')" style="cursor:hand; cursor:pointer; font-family:verdana,arial,helvetica,sans-serif; font-size:10pt"><p>How do I pay for my order?</p></div>
+
+
+									 <div id="a6" class="texter">
+									   <h5> We currently accept Visa and MasterCard.<br>
 										We also accept AMEX for Canadian orders or phone-in US orders.<br><br>
 										*Note* We do NOT accept personal cheques or money orders<br>
-										Please make sure you order with a credit card that we accept.
-									</p></blockquote>
+										Please make sure you order with a credit card that we accept.</h5>
+									 </div>
+
+									
 									<a href="faq.html"><h6 align="right">Back to Top ↑ <h6></a>
 
 								<h2>Policies</h2>
-									<h4>Return & Exchange Policy</h4>
-									<blockquote><p>
-										No refunds or exchanges.<br>
-										We will not provide any refunds or exchanges after your order has been shipped.<br>
-										Email us if you have any questions : contact@BioEvolve.com
-									</p></blockquote>
-									<a href="faq.html"><h6 align="right">Back to Top ↑ <h6></a>
 
-									<h4>Cancellation Policy</h4>
-									<blockquote><p>
-										We do not charge any cancellation fees for cancellations right after an order is placed.<br>
-										*Note* You cannot cancel any order AFTER we have shipped it from our store.
-									</p></blockquote>
+									<div onClick="openClose('a7')" style="cursor:hand; cursor:pointer; font-family:verdana,arial,helvetica,sans-serif; font-size:10pt"><p>Return & Exchange Policy</p></div>
+
+
+									 <div id="a7" class="texter">
+									   <h5> No refunds or exchanges.<br>
+										We will not provide any refunds or exchanges after your order has been shipped.<br>
+										Email us if you have any questions : contact@BioEvolve.com</h5>
+									 </div>
+
+
+									 <div onClick="openClose('a8')" style="cursor:hand; cursor:pointer; font-family:verdana,arial,helvetica,sans-serif; font-size:10pt"><p>Cancellation Policy</p></div>
+
+
+									 <div id="a8" class="texter">
+									   <h5> We do not charge any cancellation fees for cancellations right after an order is placed.<br>
+										*Note* You cannot cancel any order AFTER we have shipped it from our store.</h5>
+									 </div>
+
+
 									<a href="faq.html"><h6 align="right">Back to Top ↑ <h6></a>
 
 
