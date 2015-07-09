@@ -1557,6 +1557,7 @@
 		background: #000;
 	}
 
+
 	body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 		-moz-animation: none !important;
 		-webkit-animation: none !important;
@@ -1570,7 +1571,7 @@
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Corbel", Helvetica, sans-serif;
+		font-family: "Segoe", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 100;
 		line-height: 1.75em;
@@ -3621,7 +3622,7 @@
 		display: none;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 10px) {
 
 		/* Basic */
 
@@ -3916,7 +3917,7 @@
 
 /* XSmall */
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 10px) {
 
 		/* Basic */
 

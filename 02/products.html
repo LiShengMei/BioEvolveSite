@@ -11,9 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/css/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie/v8.css" /><![endif]-->
-		<!--[if lte IE 8]><script src="assets/css/ie/respond.min.js"></script><![endif]-->
+		
+		<link href="assets/css/stacktable.css" rel="stylesheet" />
 	</head>
 	<body>
 		<div id="page-wrapper">
@@ -79,67 +78,62 @@
 									<h6>*This promotion may not apply to certain items.</h6>
 								</center><br>
 
-								<table>
-								<col />
-								<col span="2" />
-									<tr>
-										<td><center><br><h4>Clinical Grade<br> Multi-Functional<br> Person Care Products</h4>
-											<font color="8dc63f"><p>_________________________________</p></font>
-											<a href="products_personalcare.html" class="button">Products</a><br><br>
 
-											<form>
-											<p>Save money and counter space. <br>
+								<table id="responsive-example-table" class="large-only" cellspacing="0">
+								    <tbody>
+								      <tr align="left">
+								        <th width="30%"><font color="000">.</font></th>
+								        <th width="50%"><font color="000">.</font></th>
+								        <th width="20%"><font color="000">.</font></th>
+								      </tr>
+								      <tr>
+								        <td><font color="8dc63f">Clinical Grade<br> Multi-Functional<br> Person Care Products</td>
+								        <td><p>Save money and counter space. 
 											Buy one item that has many uses. <br>
-											BioEvolve's personal care line are <br>
+											BioEvolve's personal care line are 
 											highly effective with many uses.
 											<br><br>
-											Simplify your personal routine with <br>
-											these multitasking products <br>
-											that show fast results.</p>
-											</form>
-										</center>
+											Simplify your personal routine with 
+											these multitasking products 
+											that show fast results.</p></td>
+								        <td><a href="products_personalcare.html" class="button">Products</a></td>
+								      </tr>
 
-											
+								      <th colspan="7" class="sub"></th>
 
-										</td>
-
-										<td><center><br><h4>Certified Nutritional<br> &<br> Naturopath Products</h4>
-											<font color="8dc63f"><p>_________________________________</p></font>
-											<a href="products_nutritionalnaturopath.html" class="button">Products</a><br><br>
-
-											<p>Potent with proven clinical results. <br>
-											Contains no gluten, animal products, <br>
-											wheat, gluten, dairy, yeast, <br>
-											artificial flavouring and coloring, <br>
+								      <tr>
+								        <td><font color="8dc63f">Certified Nutritional<br> &<br> Naturopath Products</td>
+								        <td><p>Potent with proven clinical results. <br>
+											Contains no gluten, animal products, 
+											wheat, gluten, dairy, yeast, 
+											artificial flavouring and coloring, 
 											soy, corn, dairy, or nuts.<br>
 											<br>
-											Products are formulated at <br>
+											Products are formulated at 
 											professional therapeutic strength. <br>
 											Safe, highly effective and clean. <br>
-											Everything desired in nutritional <br>
-											and naturopathic products.</p>
+											Everything desired in nutritional 
+											and naturopathic products.</p></td>
+								        <td><a href="products_nutritionalnaturopath.html" class="button">Products</a><br></td>
+								      </tr>
 
-										</center>
-										</td>
+								      <th colspan="7" class="sub"></th>
 
-										<td><center><br><h4>Clinical<br> Medicinal<br> Products</h4>
-											<font color="8dc63f"><p>_________________________________</p></font>
-											<a href="products_clinicalmedicinal.html" class="button">Products</a><br><br>
-
-											<p>Potent, fast onset action.<br>
-											Free of parabens and other <br>
+								      <tr>
+								        <td><font color="8dc63f">Clinical<br> Medicinal<br> Products</td>
+								        <td><p>Potent, fast onset action.<br>
+											Free of parabens and other 
 											chemical preservatives and non-toxic.<br>
 											<br>
-											Trust the heath team at Bioevolve <br>
-											to create effective, clean and <br>
-											clinical strength medicinal products <br>
-											for your needs</p>
-										</center>
-										</td>
-									</tr>							
-								</table>
+											Trust the heath team at Bioevolve 
+											to create effective, clean and 
+											clinical strength medicinal products 
+											for your needs</p></td>
+								        <td><a href="products_clinicalmedicinal.html" class="button">Products</a></td>
+								      </tr>
 
-
+								    </tbody>
+								  </table>
 
 							</section>
 
@@ -172,6 +166,34 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/jquery-1.8.1.min.js"><\/script>')</script> </script>
+
+<script src="assets/js/stacktable.js" type="text/javascript"></script>
+
+<script>
+  $(document).on('click', '#run', function(e) {
+    e.preventDefault();
+    $('#simple-example-table').stacktable({hideOriginal:true});
+    $(this).replaceWith('<span>ran</span>');
+  });
+  $('#responsive-example-table').stacktable({myClass:'stacktable small-only'});
+  $('#card-table').cardtable({myClass:'stacktable small-only' });
+  $('#agenda-example').stackcolumns({myClass:'stacktable small-only' });
+</script>
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-2821890-9']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
 
 	</body>
 </html>
