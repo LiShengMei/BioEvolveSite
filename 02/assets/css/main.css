@@ -3306,7 +3306,7 @@
 		#header nav {
 			position: fixed;
 			background: rgba(0, 0, 0, 0.6);
-			right: 1em;
+			right: 0em;
 			top: 0;
 		}
 
@@ -3316,7 +3316,7 @@
 
 				#header nav ul li {
 					display: inline-block;
-					margin-left: 1em;
+					margin-left: 0em;
 				}
 
 					#header nav ul li a, #header nav ul li span {
