@@ -1551,6 +1551,26 @@
 /* Basic */
 /*Colour*/
 
+/* Centerdivs*/
+.centerdiv90{
+	width:90%;
+	margin:0 auto;
+}
+
+
+ div.3column
+        {
+            height: 200px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: none;
+            margin-bottom: none;
+            border-top: 4px solid #00ccff;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            background-color: #575757;
+        }
 
 
 	html, body {

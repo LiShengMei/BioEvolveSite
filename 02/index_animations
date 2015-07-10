@@ -65,7 +65,7 @@
 	</head>
 
 
-
+	
 	<body class="landing">
 
 		<div id="page-wrapper">
@@ -205,15 +205,14 @@
 				</header>
 
 			<!-- Banner -->
-				<section>
+				<section id="banner">
 					<div class="content">
 						<header>
-							<br><br><br><br><br>
 							<center>
-							<h4>BioEv<font color="8dc63f">o</font>lve</h4>
-							<h5>SIMPLY EFFECTIVE</h5>
-							<h6>Ethical Science™ : 
-								Conscience Completes Our Science</h6>
+							<h2>BioEv<font color="8dc63f">o</font>lve</h2>
+							<h6>SIMPLY EFFECTIVE</h6>
+							<h4>Ethical Science™<br>
+								Conscience Completes Our Science</h4>
 
 
 
@@ -230,8 +229,18 @@
 
 						</ul>
 
-					<h3><a href="newsletter.html"><img src="images/icons/icon-newsletter.png" style="width:15%"></a></h3>
 
+
+						<!-- <ul class="icons">
+						<li><a href="https://twitter.com/hashtag/bioevolve" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/bioevolve" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://instagram.com/bioevolveasia/" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="contactus.html" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul> -->
+
+					<h3><a href="newsletter.html"><img src="images/icons/icon-newsletter.png" style="width:25%"></a></h3>
+
+					<!-- <a href="newsletter.html" class="button small">Subscribe to our Newsletter</a> -->
 						</center>
 
 
@@ -239,133 +248,142 @@
 						</header>
 						<!-- <span class="image"><img src="images/pic01.jpg" alt="" /></span> -->
 					</div>
-
-
-					<!-- A Slider -->
-					<div class="aslider" data-duration="10" >
-
-					            <div class="aslide" data-duration="4">
-					                <center><img src="images/ban_01.jpg" style="width: 100%"/></center>
-					            </div>
-					            <div class="aslide" data-duration="5">
-					                <img src="images/ban_02.jpg" style="width: 100%"/>
-					            </div>
-					            <div class="aslide" data-duration="6">
-					                <img src="images/ban_03.jpg" style="width: 100%"/>
-					            </div>
-					            <div class="aslide" data-duration="7">
-					                <img src="images/ban_04.jpg" style="width: 100%"/>
-					            </div>
-					        </div>
-					 <center>
-					</center>       
-					</div>
-					<!-- A Slider END -->
-					<center>
-					<h2>BioEvolve Brand Story</h2></center>
-						<div class="centerdiv90">
-							<blockquote>
-							<p>The BioEvolve's product creators believe in “Ethical Science™”, the process of eliminating harmful ingredients and where nature versus science becomes nature with science.</p>
-						</blockquote>
-						</div>
-						
-
-						<div class="centerdiv90">
-							<p>The inspiration behind the creation of the BioEvolve brand is to help solve two major problems in the world of health and beauty care products. These problems being the confusing and conflicting schools of thoughts on nature versus science and the unnecessary use of harmful ingredients to achieve results.
-								<br><br>
-							With Bioevolve “Conscience completes our Science” by combining the best of science and nature to create the next evolution in “Safe and Simply Effective” products.
-								<br><br>
-							All of our Bioevolve products are made with the total health of the human in mind. Stringently screened by a team of experts, Bioevolve products are clean, safe and simply effective.</p>
-						</div>
-
-						<hr>					
-						<img src="images/img_multifunc02.jpg" style="width:100%">
-						<div class="3column">
-							  <div style="float: left; width: 30%;">
-							  		<br>
-							  		<center>
-							  		<h5><font color="8dc63f">Clinical Grade <br>Multi-Functional </br>Personal Care Products</font></h5>
-							  		<a href="products_personalcare.html" class="button small" style="width:75%"><font size="1">Products</font></a>
-							  		</center>
-							  </div>
-							  <div style="float: left; width: 70%;">
-							  		<p>Save money and counter space. <br>
-									Buy one item that has many uses. <br>
-									BioEvolve's personal care line are highly effective with many uses.
-									<br><br>
-									Simplify your personal routine with these multitasking products that show fast results.</p>
-							  </div>
-							  
-							</div>
-						</div>
-
-						<img src="images/img_naturo02.jpg" style="width:100%">
-						<div class="3column">
-							  <div style="float: left; width: 30%;">
-							  		<br>
-							  		<center>
-							  		<h5><font color="8dc63f">Certified Nutritional <br>&<br> Naturopath Products</font></h5>
-							  		<a href="products_nutritionalnaturopath.html" class="button small" style="width:75%"><font size="1">Products</a></font>
-							  		</center>
-							  </div>
-							  <div style="float: left; width: 70%;">
-							  		<p>Potent with proven clinical results. 
-							  			<br>
-									Contains no gluten, animal products, wheat, gluten, dairy, yeast, artificial flavouring and coloring, soy, corn, dairy, or nuts.<br>
-										<br>
-									Products are formulated at professional therapeutic strength. <br>
-									Safe, highly effective and clean. <br>
-									Everything desired in nutritional and naturopathic products.</p>
-							  </div>
-							</div>
-
-
-							<img src="images/img_clinical02.jpg" style="width:100%">
-						<div class="3column">
-							  <div style="float: left; width: 30%;">
-							  		<br>
-							  		<center>
-							  		<h5><font color="8dc63f">Clinical<br> Medicinal<br> Products</font></h5>
-							  		<a href="products_clinicalmedicinal.html" class="button small" style="width:75%"><font size="1">Products</a></font>
-							  		</center>
-							  </div>
-							  <div style="float: left; width: 70%;">
-							  		<p>Potent, fast onset action.<br>
-									Free of parabens and other chemical preservatives and non-toxic.<br>
-										<br>
-									Trust the heath team at Bioevolve to create effective, clean and clinical strength medicinal products for your needs</p>
-							  </div>
-							</div>
-						</div>
-
-						<img src="images/img_blackspace01.jpg" style="width:100%"><hr>
-						<div class="3column">
-							  <div style="float: left; width: 30%;">
-							  		<br>
-							  		<center>
-							  		<p><font size="4">Contact Us</font></p></center>
-							  				<font size="2">
-							  				MON - FRI : 9:30am - 5:00pm PST<br>
-											SAT - SUN : CLOSED <br>			Canadian Holidays : CLOSED</font><br>
-											<hr>
-							  </div>
-							  <div style="float: left; width: 70%;">
-							  		<p>Potent, fast onset action.<br>
-									Free of parabens and other chemical preservatives and non-toxic.<br>
-										<br>
-									Trust the heath team at Bioevolve to create effective, clean and clinical strength medicinal products for your needs</p>
-							  </div>
-							</div>
-						</div>
-
+					<a href="#secbanner" class="goto-next scrolly">Next</a>
 				</section>
 
 
 
 
-			
 
-			
+
+<!-- Banner -->
+<section id="secbanner">
+
+<!-- <img src="images/img_banner.jpg" alt="Banner" style="width: 100%"> -->
+<!-- <a href="#one" class="goto-next scrolly">Next</a> -->
+
+
+<!-- IDEAL BANNER SIZE:
+	nth X 500 PX -->
+
+
+<!-- A Slider -->
+<div id="slider" class="aslider" data-duration="10" >
+
+            <div class="aslide" data-duration="4">
+                <center><img src="images/ban_01.jpg" style="width: 100%"/></center>
+            </div>
+            <div class="aslide" data-duration="5">
+                <img src="images/ban_02.jpg" style="width: 100%"/>
+            </div>
+            <div class="aslide" data-duration="6">
+                <img src="images/ban_03.jpg" style="width: 100%"/>
+            </div>
+            <div class="aslide" data-duration="7">
+                <img src="images/ban_04.jpg" style="width: 100%"/>
+            </div>
+        </div>
+ <center>
+<a href="#one"><img src="images/img_scrollarrow.png" alt="ScrollArrow"></a>
+</center>       
+</div>
+
+
+
+<!-- A Slider END -->
+     
+</section>
+
+
+
+			<!-- One -->
+				<section id="one" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/img_banner.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>					
+										<h2>BioEvolve Brand Story</h2>
+										<center>
+										<p>The BioEvolve's product creators believe in “Ethical Science™”, the process of eliminating harmful ingredients and where nature versus science becomes nature with science.</p>
+										</center>
+									</header>
+								</div>
+								<div class="4u 12u$(medium)">
+									<p>The inspiration behind the creation of the BioEvolve brand is to help solve two major problems in the world of health and beauty care products. These problems being the confusing and conflicting schools of thoughts on nature versus science and the unnecessary use of harmful ingredients to achieve results.
+									</p>
+								</div>
+								<div class="4u$ 12u$(medium)">
+									<p>With Bioevolve “Conscience completes our Science” by combining the best of science and nature to create the next evolution in “Safe and Simply Effective” products.
+										<br><br>
+									All of our Bioevolve products are made with the total health of the human in mind. Stringently screened by a team of experts, Bioevolve products are clean, safe and simply effective.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Two -->
+				<section id="two" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/img_multifunc.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Clinical Grade <br>Multi-Functional </br>Personal Care Products</h2>
+							<!-- <p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p> -->
+						</header>
+						<p>Save money and counter space. <br>
+							Buy one item that has many uses. <br>
+							BioEvolve's personal care line are highly effective with many uses.
+							<br><br>
+							Simplify your personal routine with these multitasking products that show fast results.</p>
+						<ul class="actions">
+							<li><a href="products_personalcare.html" class="button">Products</a></li>
+						</ul>
+					</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Three -->
+				<section id="three" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/img_naturo.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Certified Nutritional & Naturopath Products</h2>
+							<!-- <p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p> -->
+						</header>
+						<p>Potent with proven clinical results. <br>
+							Contains no gluten, animal products, wheat, gluten, dairy, yeast, artificial flavouring and coloring, soy, corn, dairy, or nuts.<br>
+							<br>
+							Products are formulated at professional therapeutic strength. <br>
+							Safe, highly effective and clean. <br>
+							Everything desired in nutritional and naturopathic products.</p>
+						<ul class="actions">
+							<li><a href="products_nutritionalnaturopath.html" class="button">Products</a></li>
+						</ul>
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Four -->
+				<section id="four" class="spotlight style3 right">
+					<span class="image fit main bottom"><img src="images/img_clinical.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Clinical Medicinal Products</h2>
+							<!-- <p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p> -->
+						</header>
+						<p>Potent, fast onset action.<br>
+						Free of parabens and other chemical preservatives and non-toxic.<br>
+						<br>
+						Trust the heath team at Bioevolve to create effective, clean and clinical strength medicinal products for your needs</p>
+						<ul class="actions">
+							<li><a href="products_clinicalmedicinal.html" class="button">Products</a></li>
+						</ul>
+					</div>
+					<a href="#five" class="goto-next scrolly">Next</a>
+				</section>
 
 			
 
