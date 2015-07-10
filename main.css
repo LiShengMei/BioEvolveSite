@@ -1551,32 +1551,11 @@
 /* Basic */
 /*Colour*/
 
-/* Centerdivs*/
-.centerdiv90{
-	width:90%;
-	margin:0 auto;
-}
-
-
- div.3column
-        {
-            height: 200px;
-            width: 80%;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: none;
-            margin-bottom: none;
-            border-top: 4px solid #00ccff;
-            border-bottom-left-radius: 15px;
-            border-bottom-right-radius: 15px;
-            background-color: #575757;
-        }
 
 
 	html, body {
 		background: #000;
 	}
-
 
 	body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 		-moz-animation: none !important;
@@ -1591,7 +1570,7 @@
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Segoe", Helvetica, sans-serif;
+		font-family: "Corbel", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 100;
 		line-height: 1.75em;
@@ -3284,9 +3263,9 @@
 		background: rgba(0, 0, 0, 0.3);
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 		cursor: default;
-		height: 1em;
+		height: 3.5em;
 		left: 0;
-		line-height: 1em;
+		line-height: 3.5em;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -3492,9 +3471,6 @@
 					color: inherit;
 				}
 
-
-
-
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
@@ -3645,7 +3621,7 @@
 		display: none;
 	}
 
-	@media screen and (max-width: 10px) {
+	@media screen and (max-width: 736px) {
 
 		/* Basic */
 
@@ -3901,7 +3877,7 @@
 
 					#navPanel .link .indent-4 {
 						display: inline-block;
-						width: 5em;
+						width: 1em;
 					}
 
 					#navPanel .link .indent-5 {
@@ -3940,7 +3916,7 @@
 
 /* XSmall */
 
-	@media screen and (max-width: 10px) {
+	@media screen and (max-width: 480px) {
 
 		/* Basic */
 
