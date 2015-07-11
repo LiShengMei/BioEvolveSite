@@ -11,9 +11,7 @@
 		<!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
 		<!--[if lte IE 8]><script src="assets/css/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie/v8.css" /><![endif]-->
-		<!--[if lte IE 8]><script src="assets/css/ie/respond.min.js"></script><![endif]-->
+		<link href="assets/css/stacktable.css" rel="stylesheet" />
 	</head>
 	<body>
 		<div id="page-wrapper">
@@ -84,34 +82,37 @@
 
 								<div align="right"><h6>* Click the invoice number to view your order.</h6></div>
 								<center><h2>Your Order History</h2></center>
-								<div class="table-wrapper">
-									<table class="alt">
-										<thead>
-											<tr>
-												<th>Invoice Number</th>
-												<th>Date</th>
-												<th>Total</th>
-												<th>Status</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td><a href="history_order01.html">1234567</a></td>
-												<td>06/30/2015</td>
-												<td>$9.95 CAD</td>
-												<td>Shipping</td>
-											</tr>
-											<tr>
-												<td><a href="history_order01.html">1234567</a></td>
-												<td>07/01/2015</td>
-												<td>$9.95 CAD</td>
-												<td>To Be Shipped</td>
-											</tr>
-											
-										</tbody>
-										
-									</table>
-								</div>
+
+								<table id="responsive-example-table" cellspacing="0">
+								    <tbody>
+								      <tr align="left">
+								        <th width="25%">Invoice Number</th>
+								        <th width="15%">Date</th>
+								        <th width="10%">Total</th>
+								        <th width="20%">Status</th>
+								        
+								      </tr>
+								      <tr>
+								        <td><a href="history_order01.html">1234567</a></td>
+										<td>06/30/2015</td>
+										<td>$9.95 CAD</td>
+										<td>Shipping</td>
+								      </tr>
+
+								      <tr>
+								        <td><a href="history_order01.html">1234567</a></td>
+										<td>06/30/2015</td>
+										<td>$9.95 CAD</td>
+										<td>Shipping</td>
+								      </tr>
+
+
+								    </tbody>
+								</table>
+
+
+
+
 								
 							</section>
 
@@ -144,6 +145,32 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>window.jQuery || document.write('<script src="assets/js/jquery-1.8.1.min.js"><\/script>')</script> </script>
+
+<script src="assets/js/stacktable.js" type="text/javascript"></script>
+
+<script>
+  $(document).on('click', '#run', function(e) {
+    e.preventDefault();
+    $('#simple-example-table').stacktable({hideOriginal:true});
+    $(this).replaceWith('<span>ran</span>');
+  });
+  $('#responsive-example-table').stacktable({myClass:'stacktable small-only'});
+  $('#card-table').cardtable({myClass:'stacktable small-only' });
+  $('#agenda-example').stackcolumns({myClass:'stacktable small-only' });
+</script>
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-2821890-9']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
 
 	</body>
 </html>

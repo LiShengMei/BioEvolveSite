@@ -11,9 +11,7 @@
 		<!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
 		<!--[if lte IE 8]><script src="assets/css/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie/v8.css" /><![endif]-->
-		<!--[if lte IE 8]><script src="assets/css/ie/respond.min.js"></script><![endif]-->
+		<link href="assets/css/stacktable.css" rel="stylesheet" />
 	</head>
 	<body>
 		<div id="page-wrapper">
@@ -81,58 +79,40 @@
 
 
 								<center><h5><font color="#8dc63f">06/07/2015</font></h5></center>
-								<div class="table-wrapper">
-									<table class="alt">
-										<thead>
-											<tr>
-												<th>Item</th>
-												<th>Quantity</th>
-												<th>Price</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>PureFresh Shampoo 60mL</td>
-												<td>x01</td>
-												<td>$9.95 CAD</td>
-											</tr>
-											<tr>
-												<td>Item 2</td>
-												<td>Vis ac commodo adipiscing arcu aliquet.</td>
-												<td>$19.99 CAD</td>
-											</tr>
-											<tr>
-												<td>Item 3</td>
-												<td> Morbi faucibus arcu accumsan lorem.</td>
-												<td>$29.99 CAD</td>
-											</tr>
-											<tr>
-												<td>Item 4</td>
-												<td>Vitae integer tempus condimentum.</td>
-												<td>$19.99 CAD</td>
-											</tr>
-											<tr>
-												<td>Item 5</td>
-												<td>Ante turpis integer aliquet porttitor.</td>
-												<td>$29.99 CAD</td>
-											</tr>
-											<tr>
-												<td colspan="2" align="right">
-												USA Canada Post Expedited 4-8 days incl. tracking	$13.00
-												</td>
-												<td colspan="2" align="left">
-												$13.00 CAD
-												</td>
-											</tr>
-										</tbody>
-										<tfoot>
-											
-											<tr>
-												<td colspan="2" align="right"><font color="#8dc63f">Total Excluding Delivery : </font></td>
-												<td><font color="#8dc63f">$100.00 CAD</font></td>
-											</tr>
-										</tfoot>
-									</table>
+								<table id="responsive-example-table" cellspacing="0">
+								    <tbody>
+								      <tr align="left">
+								        <th width="25%">Product(s)</th>
+								        <th width="15%">Description</th>
+								        <th width="10%">Quantity</th>
+								        <th width="20%">Price</th>
+								        
+								      </tr>
+								      <tr>
+								        <td>PureFresh Shampoo</td>
+								        <td>60mL</td>
+								        <td>x01</td>
+								        <td><h5>$9.95 CAD</td>
+								      </tr>
+
+								      <tr>
+								        <td>PureFresh Conditioner</td>
+								        <td>60mL</td>
+								        <td>x01</td>
+								        <td><h5>$9.95 CAD</td>
+								      </tr>
+
+
+								    </tbody>
+								</table>
+
+								<table id="responsive-example-table" cellspacing="0">
+								    <tbody>
+								      <tr>
+								        <td width="85%" align="right"><font color="#8dc63f">Total Excluding Delivery : </td>
+								        <td width="15%" align="right"><font color="#8dc63f">$100.00 CAD</td>
+								      </tr>
+								</table>
 									<div align="right">
 										<a href="checkout01.html" class="button special">Reorder</a><br><br>
 									</div>
@@ -147,50 +127,62 @@
 									<div>
 										<h2>Shipping Information</h2>
 										<div class="table-wrapper">
-											<table class="alt">
-												<tbody>
-													<tr>
-														<td>First Name</td>
-														<td>Name</td>
-													</tr>
-													<tr>
-														<td>Last Name</td>
-														<td>Name</td>
-													</tr>
-													<tr>
-														<td>Address</td>
-														<td>123456 789st. #A</td>
-													</tr>
-													<tr>
-														<td>City</td>
-														<td>Richmond</td>
-													</tr>
-													<tr>
-														<td>State/Province</td>
-														<td>British Columbia</td>
-													</tr>
-													<tr>
-														<td>Zip/Postal Code</td>
-														<td>British Columbia</td>
-													</tr>
-													<tr>
-														<td>Country</td>
-														<td>Canada</td>
-													</tr>
-													<tr>
-														<td>Phone</td>
-														<td>604-123-4567</td>
-													</tr>
-													<tr>
-														<td>Email</td>
-														<td>name@name.com</td>
-													</tr>
-													<tr>
-														<td>Fax</td>
-														<td>N/A</td>
-													</tr>
-												</tbody>
-											</table>
+
+									<div class="4u 12u$(medium)" align="right">
+											<input type="radio" id="checkbox_shipping" name="checkbox_shipping">
+											<!-- <label for="checkbox_shipping">Save my Shipping Information</label> -->
+									</div>
+
+									<div class="table-title">
+									</div>
+									<table class="table-fill">
+									<thead>
+									<tr>
+
+									</tr>
+									</thead>
+									<tbody class="table-hover">
+									<tr>
+									<td class="text-left" width="40%">First Name</td>
+									<td class="text-left">John</td>
+									</tr>
+									<tr>
+									<td class="text-left" width="40%">Last Name</td>
+									<td class="text-left">Doe</td>
+									</tr>
+									<tr>
+									<td class="text-left" width="40%">Address</td>
+									<td class="text-left">1234 Somewhere St.</td>
+									</tr>
+									<tr>
+									<td class="text-left" width="40%">Apartment/Suite	</td>
+									<td class="text-left">If applicable</td>
+									</tr>
+									<tr>
+									<td class="text-left" width="40%">City</td>
+									<td class="text-left">Somewhere</td>
+									</tr>
+									<tr>
+									<td class="text-left" width="40%">State/Province</td>
+									<td class="text-left">British Columbia</td>
+									</tr>
+									<tr>
+									<td class="text-left" width="40%">Zip/Post Code</td>
+									<td class="text-left">A1B 2C3</td>
+									</tr>
+									<tr>
+									<td class="text-left" width="40%">Country</td>
+									<td class="text-left">Canada</td>
+									</tr>
+									<tr>
+									<td class="text-left" width="40%">Phone Number</td>
+									<td class="text-left">1-604-123-4567</td>
+									</tr>
+									<td class="text-left" width="40%">Email</td>
+									<td class="text-left">email@email.com</td>
+									</tr>
+									</tbody>
+									</table>
 										</div>									</div>
 
 										<div align="right">
@@ -202,45 +194,50 @@
 									<div>
 										<h2>Billing Information</h2>
 										<div class="table-wrapper">
-									<table class="alt">
-										<tbody>
-													<tr>
-														<td>First Name</td>
-														<td>Name</td>
-													</tr>
-													<tr>
-														<td>Last Name</td>
-														<td>Name</td>
-													</tr>
-													<tr>
-														<td>Address</td>
-														<td>123456 789st. #A</td>
-													</tr>
-													<tr>
-														<td>City</td>
-														<td>Richmond</td>
-													</tr>
-													<tr>
-														<td>State/Province</td>
-														<td>British Columbia</td>
-													</tr>
-													<tr>
-														<td>Zip/Postal Code</td>
-														<td>British Columbia</td>
-													</tr>
-													<tr>
-														<td>Country</td>
-														<td>Canada</td>
-													</tr>
-													<tr>
-														<td>Phone</td>
-														<td>604-123-4567</td>
-													</tr>
-													<tr>
-														<td>Fax</td>
-														<td>N/A</td>
-													</tr>
-												</tbody>
+																		<table class="table-fill">
+									<thead>
+									<tr>
+
+									</tr>
+									</thead>
+									<tbody class="table-hover">
+									<tr>
+									<td class="text-left" width="40%">First Name</td>
+									<td class="text-left">John</td>
+									</tr>
+									<tr>
+									<td class="text-left" width="40%">Last Name</td>
+									<td class="text-left">Doe</td>
+									</tr>
+									<tr>
+									<td class="text-left" width="40%">Address</td>
+									<td class="text-left">1234 Somewhere St.</td>
+									</tr>
+									<tr>
+									<td class="text-left" width="40%">Apartment/Suite	</td>
+									<td class="text-left">If applicable</td>
+									</tr>
+									<tr>
+									<td class="text-left" width="40%">City</td>
+									<td class="text-left">Somewhere</td>
+									</tr>
+									<tr>
+									<td class="text-left" width="40%">State/Province</td>
+									<td class="text-left">British Columbia</td>
+									</tr>
+									<tr>
+									<td class="text-left" width="40%">Zip/Post Code</td>
+									<td class="text-left">A1B 2C3</td>
+									</tr>
+									<tr>
+									<td class="text-left" width="40%">Country</td>
+									<td class="text-left">Canada</td>
+									</tr>
+									<tr>
+									<td class="text-left" width="40%">Phone Number</td>
+									<td class="text-left">1-604-123-4567</td>
+									</tr>
+									</tbody>
 									</table>
 								</div>
 								</div>
@@ -280,6 +277,33 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/jquery-1.8.1.min.js"><\/script>')</script> </script>
+
+<script src="assets/js/stacktable.js" type="text/javascript"></script>
+
+<script>
+  $(document).on('click', '#run', function(e) {
+    e.preventDefault();
+    $('#simple-example-table').stacktable({hideOriginal:true});
+    $(this).replaceWith('<span>ran</span>');
+  });
+  $('#responsive-example-table').stacktable({myClass:'stacktable small-only'});
+  $('#card-table').cardtable({myClass:'stacktable small-only' });
+  $('#agenda-example').stackcolumns({myClass:'stacktable small-only' });
+</script>
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-2821890-9']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
 
 	</body>
 </html>
