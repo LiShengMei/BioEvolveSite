@@ -1558,7 +1558,7 @@
 }
 
 div.facebook{
-	max-width: 242px;
+	min-width: 242px;
 }
 
  div.3column
