@@ -3560,12 +3560,12 @@
 
 /* Medium */
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 500px) {
 
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 8pt;
 			}
 
 		/* Spotlight */
