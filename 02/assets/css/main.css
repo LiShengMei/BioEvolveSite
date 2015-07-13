@@ -1557,6 +1557,9 @@
 	margin:0 auto;
 }
 
+div.facebook{
+	max-width: 242px;
+}
 
  div.3column
         {
@@ -3504,9 +3507,6 @@
 			body, input, select, textarea {
 				font-size: 13pt;
 			}
-		div.facebook{
-			max-width: 500px;
-		}
 
 	}
 
