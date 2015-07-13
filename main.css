@@ -24,6 +24,8 @@
 
 	body {
 		line-height: 1;
+		min-width:1000px; // suppose you want minimun width of 1000px
+   _width: expression( document.body.clientWidth > 1000 ? "1000px" : "auto" );
 	}
 
 	ol, ul {
