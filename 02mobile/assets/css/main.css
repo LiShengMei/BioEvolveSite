@@ -3656,7 +3656,7 @@ div.facebook{
 				overflow-x: hidden;
 			}
 
-			body, input, select, textarea {
+			body, input, select, textarea, p {
 				font-size: 18pt;
 			}
 
