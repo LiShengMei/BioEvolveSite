@@ -3657,7 +3657,7 @@ div.facebook{
 			}
 
 			body, input, select, textarea {
-				font-size: 10pt;
+				font-size: 18pt;
 			}
 
 			h2 {
@@ -3853,7 +3853,7 @@ div.facebook{
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				font-size: 14pt;
+				font-size: 16pt;
 				display: block;
 				height: 100%;
 				left: 0;
