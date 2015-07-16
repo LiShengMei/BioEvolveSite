@@ -42,6 +42,7 @@
 	table {
 		border-collapse: collapse;
 		border-spacing: 0;
+		max-width: 100%;
 	}
 
 	body {
@@ -3311,6 +3312,7 @@ div.facebook{
 			background: rgba(0, 0, 0, 0.6);
 			right: 1em;
 			top: 0;
+			font-size: 10pt;
 		}
 
 			#header nav ul {
@@ -3503,6 +3505,8 @@ div.facebook{
 	@media screen and (max-width: 1680px) {
 
 		/* Basic */
+
+
 
 			body, input, select, textarea {
 				font-size: 13pt;
